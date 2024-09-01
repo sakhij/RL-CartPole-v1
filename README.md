@@ -1,5 +1,5 @@
 # RL-CartPole-v1
-A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum is placed upright on the cart and the goal is to balance the pole by applying forces in the left and right direction on the cart.
+Problem : A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum is placed upright on the cart and the goal is to balance the pole by applying forces in the left and right direction on the cart.
 
 # Q-Learning
  Q-Learning uses previously learned “states” which have been explored to consider future moves and stores this information in a “Q-Table.” For every action taken from a state, the policy table, Q table, has to include a positive or negative reward.
