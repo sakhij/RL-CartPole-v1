@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/68c22ea1-b016-4aa6-a646-93df161ce9b1)# RL-CartPole-v1
+# RL-CartPole-v1
 A pole is attached by an un-actuated joint to a cart, which moves along a frictionless track. The pendulum is placed upright on the cart and the goal is to balance the pole by applying forces in the left and right direction on the cart.
 
 # Q-Learning
