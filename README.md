@@ -20,6 +20,9 @@ Clone the repository and run the python code:
 ```bash
 https://github.com/sakhij/RL-CartPole-v1.git
 ```
+```bash
+python3 Q-Learning-CartPole.py
+```
 
 ## Expected Output:(Use as Reference)
 Graphs for episodes where mean_rewards for last 100 episodes <1000.
@@ -43,6 +46,9 @@ pip freeze | grep -E 'numpy|torch|matplotlib'
 Clone the repository and run the python code:
 ```bash
 https://github.com/sakhij/RL-CartPole-v1.git
+```
+```bash
+python3 DQN-Cartpole.py
 ```
 
 ## Expected Output:(Use as Reference)
