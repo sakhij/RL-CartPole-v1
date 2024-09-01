@@ -18,6 +18,7 @@ pip freeze | grep -E 'gymnasium|numpy|matplotlib'
 ## How to Run
 Clone the repository and run the python code:
 ```bash
+https://github.com/sakhij/RL-CartPole-v1.git
 ```
 
 ## Expected Output:(Use as Reference)
@@ -41,6 +42,7 @@ pip freeze | grep -E 'numpy|torch|matplotlib'
 ## How to Run:
 Clone the repository and run the python code:
 ```bash
+https://github.com/sakhij/RL-CartPole-v1.git
 ```
 
 ## Expected Output:(Use as Reference)
