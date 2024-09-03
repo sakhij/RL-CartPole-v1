@@ -60,7 +60,7 @@ def select_action(state, policy_net, steps_done):
 # Optimize model using experience replay
 def optimize_model():
     if len(memory) < BATCH_SIZE:
-        return None  # No optimization if memory is not sufficient
+        return None
     
     transitions = memory.sample(BATCH_SIZE)
     batch = list(zip(*transitions))
@@ -85,7 +85,7 @@ def optimize_model():
     loss.backward()
     optimizer.step()
     
-    return loss.item()  # Return loss value for tracking
+    return loss.item()
 
 # Initialize policy and target networks
 policy_net = DQN(n_observations, n_actions)
